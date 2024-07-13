@@ -18,6 +18,6 @@ public class SpringBoot01AliceAndHerBakeryWeek1Application implements CommandLin
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(cakeBaker.bakeCake());;
+		cakeBaker.bakeCake();
 	}
 }
